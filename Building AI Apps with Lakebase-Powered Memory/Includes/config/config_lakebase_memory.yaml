@@ -1,0 +1,24 @@
+# Capstone Lab Setup Configuration
+
+medallion_lab: false
+dev_mode: false
+resource_cleanup: false
+
+# Set Course Name
+course_name: "Building AI Apps with Lakebase-Powered Memory"
+
+# Compute check for correct serverless version
+serverless_compute_version: "5"
+
+# Catalog and Schema
+catalog:
+  name: null
+  prefix: "labuser"
+  schema_name: "bakehouse"
+
+# Agent Setup
+agents:
+  llm_endpoint_name: "databricks-claude-sonnet-4-6"
+  deploy: false
+  alias: "champion"
+  lakebase_autoscaling_branch: "production"
